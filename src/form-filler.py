@@ -10,13 +10,13 @@ from typing import TypedDict
 import yaml
 from cerberus import Validator
 
-from src.generators import (
+from generators import (
     create_checkbox_input,
     create_date_input,
     create_text_input,
     SpecInput,
 )
-from src.schema import schema, input_schema
+from schema import schema, input_schema
 
 
 class Spec(TypedDict):

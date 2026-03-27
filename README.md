@@ -56,6 +56,7 @@ Currently needs to be in `YYYY-MM-DD` format.
 Install the packages or run with [poetry](https://python-poetry.org/) or [uv](https://docs.astral.sh/uv/) or similar.
 
 ```shell
+uv sync
 uv run src/form-filler.py specifications/example.yaml
 ```
 
@@ -71,3 +72,11 @@ The project relies on two external dependencies:
 
 - [Cerberus](https://docs.python-cerberus.org/) is used to validate YAML specifications
 - [PyYAML](https://pyyaml.org/) is used to parse YAML specifications into Python data structures
+
+## Tests
+
+To run tests, run
+
+```shell
+uv run pytest
+```

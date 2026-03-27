@@ -8,6 +8,6 @@ schema = {
 
 input_schema = {
     "type": {"type": "string"},
-    "value": {"type": ["string", "boolean", "number"]},
+    "value": {"type": ["string", "boolean", "number"], "required": True},
     "selector": {"type": "string"},
 }
