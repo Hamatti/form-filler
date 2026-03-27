@@ -1,0 +1,17 @@
+inputs:
+  name:
+    type: text
+    value: "Jane Doe"
+    selector: "#name"
+  age:
+    type: text
+    value: 23
+    selector: "#age"
+  confirmation:
+    type: checkbox
+    value: false
+    selector: "#confirmation"
+  date:
+    type: date
+    value: "2026-05-25"
+    selector: "#date"

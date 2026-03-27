@@ -1,0 +1,10 @@
+[project]
+name = "form-filler"
+version = "1.0.0"
+description = "Form Filler is a script to generate bookmarklets for filling HTML forms while developing web apps and sites."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "cerberus>=1.3.8",
+    "pyyaml>=6.0.3",
+]
